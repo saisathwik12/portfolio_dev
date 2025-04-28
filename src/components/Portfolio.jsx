@@ -1,7 +1,7 @@
 import React from 'react';
-// import project1 from "../assets/project1.png"
-// import project2 from "../assets/project2.png"
-// import project4 from "../assets/project4.png"
+import project1 from "../assets/project1.png"
+import project2 from "../assets/project2.png"
+import project3 from "../assets/project3.png"
 // import project5 from "../assets/project5.png"
 // import project6 from "../assets/project6.png"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
@@ -9,50 +9,33 @@ import Reveal from './Reveal';
 
 const projects = [
     {
-      img: "project1",
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      img: project1,
+      title: "CONTROLHUB",
+      description: "Developed ControlHub, a web-based centralized project management, real-time tracking, and analytics.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://controlhub-mern.netlify.app/",
+        github: "https://github.com/saisathwik12/controlhub_project.git",
       },
     },
     {
-      img: "project2",
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      img: project2,
+      title: "MEAL MATCH",
+      description: "Developed 'Meal Match' web application using HTML, CSS, and JavaScript, enabling users to discover recipes based on available ingredients. ",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://saisathwik12.github.io/Meal-Match/",
+        github: "https://github.com/saisathwik12/Meal-Match.git",
       },
     },
     {
-      img: "project4",
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      img: project3,
+      title: "SIGN LANGUAGE DETECTION",
+      description: "Developed a Sign Language Detection system using Machine Learning to recognize alphabet hand gestures.",
       links: {
         site: "#",
         github: "#",
       },
     },
-    {
-      img: "project5",
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: "project6",
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
+    
   ]
 
 const Portfolio = () => {
